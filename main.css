@@ -9,14 +9,24 @@ body {
 }
 
 .char-name {
+  margin:0;
+
   font-size: 33vh;
   text-transform: uppercase;
   letter-spacing: -24px;
+
+  position: relative;
+  z-index: 1;
 }
 
 .char-numb {
+  margin:0;
+
   font-size: 13vh;
   letter-spacing: -5px;
+
+  position: relative;
+  z-index: 1;
 }
 
 #fighter {
@@ -26,5 +36,11 @@ body {
 #char-img {
   position: absolute;
   top: 0px;
-  left: 500px;
+  left: 400px;
+  z-index: 1;
+}
+
+#bg-img {
+  position: absolute;
+  top: 0px;
 }
